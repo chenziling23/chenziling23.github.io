@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+
+        @media only screen and (max-width: 768px) {
+            body {
+                background-color: white;
+                font-size: 10px;
+            }
+            p{
+                color: black;
+            }
+        }
+        body{
+            width: 80%;
+            font-family: 'Montserrat', sans-serif;
+        }
+        header{
+            width: 110%;
+            font-size: 80px;
+            background-color: white;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+       
+        #box1{
+            font-size: 20px;
+            text-align: left;
+            background-color: #ddd9d9;
+            height: 90%;
+            width: 90%;
+            padding: 75px;
+			margin: 50px;
+        }
+
+        #box2{
+            font-size: 20px;
+            text-align:left;
+            background-color:#ddd9d9;
+            height: 90%;
+            width: 90%;
+            padding: 75px;
+			margin: 50px;
+
+        }
+
+        #box3{
+            font-size: 20px;
+            text-align:left;
+            background-color:#ddd9d9;
+            height: 90%;
+            width: 90%;
+            padding: 75px;
+			margin: 50px;
+
+        }
+
+        .box-container{
+            justify-content: space-between
+        }
+        .padded{
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        p{
+            text-align: center;
+        }
+        a:hover{
+            color: brown;
+        }
+        .box1-text{
+            width: 100%;
+            align-items: center;
+            margin: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <p><strong>My projects</strong></p>
+    </header>
+    <main>
+        <div class="box-container">
+            <div id="box1">
+                <p>To Do List Make Life Easier</p>
+                <p><a href="https://github.ccs.neu.edu/cs5004-sea-summer2021/Team_repo_Yang_He_Fanxing_Ziling/tree/master/HW9/src">To-do List Application</a></p>
+                <img class="padded", src="https://uploads-ssl.webflow.com/5e2de6d42ca1f7c4e812d49e/5e3f3c111e36ab23dae72032_kigyo-intro-02-p-800.png"
+                     width="250", height="250">
+                <img class="padded", src="https://uploads-ssl.webflow.com/5e2de6d42ca1f7c4e812d49e/5e3e26d99666d423bf2cc24d_mystuff-intro-p-800.png"
+                     width="250", height="250">
+                <img class="padded", src="https://uploads-ssl.webflow.com/5e2de6d42ca1f7c4e812d49e/5e3b7e7e7f457659a72cd709_nexio-intro-image-p-800.png"
+                     width="250", height="250">
+                <div class="box1-text">
+                <ul>
+                    <li>Help you stay organised and improve your memory</li>
+                    <li>Increases productivity and helps with motivation</li>
+                    <li>Skills Used: Java</li>
+                </ul>
+                </div>
+            </div>
+
+            <div id="box2">
+                <p>Come And Play the Game!</p>
+                <p><a href="https://github.ccs.neu.edu/CS-5001-SEA-Spring2021/student-ZilingChen/tree/master/hw12">Connect Four Game</a></p>
+                <img class="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_2HcrurkieqByml3ED8P1mTdjRAWZLmVGwg&usqp=CAU"
+                     width="800", height="300">
+                <ul>
+                    <li>I Developed the three levels Connect Four Game with beautiful themes, awesome graphics, and easy instructions
+                    <li>Completed using python and OOD patterns and adapted both two-player mode and user-Computer AI mode</li>
+                    <li>Skills Used: Python</li>
+                </ul>
+            </div>
+
+            <div id="box3">
+                <p>Make Some Change by Analyzing Data!</p>
+                <p>COVID-19 Data Challenge Project</p>
+                <img class="center", src="https://i.itworldcanada.com/wp-content/uploads/2021/02/GettyImages-1279457720.jpg"
+                     width="300", height="300">
+                <img class="center", src="https://drive.hhs.gov/img/Pediatric-COVID-19.png"
+                     width="600", height="300">
+                <ul>
+                    <li>Analyzed live-updated data to understand the statistical correlation between cases number, death rate and the socioeconomic status</li>
+                    <li>Built models to predict the likelihood of cases for each income group, achieved an 88% ROC AUC predicting accuracy</li>
+                    <li>Skills Used: R/Python for analytics, Tableau for visualization</li>
+            </div> 
+        </div>
+    </main>
+</body>
+</html>
