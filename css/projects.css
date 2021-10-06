@@ -1,0 +1,72 @@
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: white;
+        font-size: 10px;
+    }
+    p{
+        color: black;
+    }
+}
+body{
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 110%;
+    font-size: 80px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#box1{
+    font-size: 20px;
+    text-align: left;
+    background-color: #ddd9d9;
+    height: 90%;
+    width: 90%;
+    padding: 75px;
+    margin: 50px;
+}
+#box2{
+    font-size: 20px;
+    text-align:left;
+    background-color:#ddd9d9;
+    height: 90%;
+    width: 90%;
+    padding: 75px;
+    margin: 50px;
+}
+#box3{
+    font-size: 20px;
+    text-align:left;
+    background-color:#ddd9d9;
+    height: 90%;
+    width: 90%;
+    padding: 75px;
+    margin: 50px;
+}
+.box-container{
+    justify-content: space-between
+}
+.padded{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p{
+    text-align: center;
+}
+a:hover{
+    color: brown;
+}
+.box1-text{
+    width: 100%;
+    align-items: center;
+    margin: 30px;
+}

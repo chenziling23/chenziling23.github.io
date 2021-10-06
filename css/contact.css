@@ -1,0 +1,33 @@
+@media only screen and (min-width: 768px) {
+    body {
+        width: 50%;
+        font-size: 5px;
+    }
+    p{
+        color: black;
+    }
+    .imgbox .main-container{
+        height: 50%;
+    } 
+}
+.imgbox {
+    display: grid;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+.main-container{
+    width: 100%;
+}
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(9, 18, 99);
+    text-align: center;
+    margin: 20px;
+}
+.main:last-child{
+    color: darkgreen;
+}
