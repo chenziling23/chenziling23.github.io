@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,92 +14,107 @@
                 background-color: white;
                 font-size: 15px;
             }
-            p{
+
+            p {
                 font-size: 15px;
                 color: black;
             }
-            nav ul li a{
+
+            nav ul li a {
                 flex-direction: column;
             }
 
-            #text-container{
+            #text-container {
                 font-size: 10px;
                 flex-direction: column;
                 height: 50px;
                 width: 80px;
-                text-align:justify;
+                text-align: justify;
             }
-            #image-container{
+
+            #image-container {
                 flex-direction: column;
                 height: 80px;
                 width: 80px;
             }
-            #fun-facts-container{
+
+            #fun-facts-container {
                 height: 500px;
                 width: 500px;
-                top:50%;
-                left:10%;
+                top: 50%;
+                left: 10%;
             }
         }
 
-        body{
+        body {
             background-color: white;
             margin: 10px;
             padding: 10px;
         }
-        ul{
+
+        ul {
             list-style: none;
         }
-        a{
+
+        a {
             text-decoration: none;
         }
-        p{
+
+        p {
             text-align: center;
         }
-        section{
+
+        section {
             width: 100%;
             height: 100vh;
             position: relative;
         }
-        nav{
+
+        nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
             height: 80px;
             width: 1000px;
             box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
-            padding: 0px 5%; 
+            padding: 0px 5%;
         }
-        nav ul{
+
+        nav ul {
             display: flex;
             position: fixed;
         }
-        nav ul li a{
+
+        nav ul li a {
             margin: 30px;
             font-family: myriad pro regular;
             color: #505050;
             font-size: 20px;
             font-weight: 700;
         }
-        nav ul li a:hover{
+
+        nav ul li a:hover {
             color: cyan;
         }
-        #text-container{
+
+        #text-container {
             font-family: calibri;
             font-weight: bold;
             font-size: 35px;
             color: #6d6d6d;
             position: absolute;
             left: 18%;
-            top:55%;
+            top: 55%;
             transform: translate(-13%, -42%);
         }
-        #image-container{
+
+        #image-container {
             position: relative;
-            left:55%;
-            top:32%;
+            left: 55%;
+            top: 32%;
         }
-        #volunteer-container{
+
+        #volunteer-container {
             margin: 30px;
             position: relative;
             display: flex;
@@ -109,11 +125,12 @@
             box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
             justify-content: space-evenly;
             align-items: center;
-            top:35%;
+            top: 35%;
             left: 12%;
             transform: translate(30%, 10%);
         }
-        .volunteer-text{
+
+        .volunteer-text {
             color: #3d3c3c;
             height: 300px;
             width: 100px;
@@ -122,25 +139,28 @@
             align-items: center;
             font-size: 15px;
         }
-        #fun-facts-container{
+
+        #fun-facts-container {
             position: relative;
             display: flex;
             height: 800px;
             width: 600px;
-            border-radius: 1px 1px 20px rgba(0,0,0,0.2);
+            border-radius: 1px 1px 20px rgba(0, 0, 0, 0.2);
             justify-content: space-evenly;
             align-items: center;
-            top:20%;
+            top: 20%;
             left: 10%;
             transform: translate(10%, 10%);
         }
-        .fun-facts-text{
+
+        .fun-facts-text {
             color: #3d3c3c;
             width: 800px;
             font-family: 'Muli', sans-serif;
             font-size: 20px;
         }
-        #cat-person-container{
+
+        #cat-person-container {
             position: relative;
             display: flex;
             height: 400px;
@@ -150,11 +170,12 @@
             box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
             justify-content: space-between;
             align-items: center;
-            top:18%;
+            top: 18%;
             left: 15%;
             transform: translate(10%, 10%);
         }
-        .cat-person-text{
+
+        .cat-person-text {
             margin: 30px;
             padding: 30px;
             color: #3d3c3c;
@@ -165,7 +186,7 @@
             align-items: center;
             font-size: 15px;
         }
-        </style>
+    </style>
 
 </head>
 
@@ -178,42 +199,40 @@
                 <li><a href="#cat-person-container">Cat Person</a></li>
             </ul>
         </nav>
-      
+
         <div id="text-container">
             <p>Explore More Possibility...</p>
             <p>It's Not Too Late to Start Coding</p>
             <p>Work Beats Day Dreaming</p>
         </div>
         <div id="image-container">
-            <img src="/Users/ziling/Desktop/CS_5610/project1/pages/maxmillion.jpg"
-            width="300", height="300">
-        </div>
-       
-    </section>
-        <div id="volunteer-container">
-            <img src="/Users/ziling/Desktop/CS_5610/project1/pages/volunteer.JPG"
-            width="250", height="250">
-            <div class="volunteer-text">
-                <p>I have volunteered as a elementary school teacher in Colombo, Sri Lanka</p>
-                <p>An unforgettable experience that taught me the importance of education I'll remeber for years to come</p>
-            </div>
-        </div>
-    
-        <div id="fun-facts-container">
-            <div class="fun-facts-text">
-                <p>I Love ski, <strong>BUT</strong> not really good at it</p>
-                <p>I Love travelling, <strong>BUT</strong> it's becoming a dreaming staff due to COVID</p>
-                <p>I Love boba milk tea, <strong>BUT</strong> it's a fat generator</p>
-            </div>
+            <img src="/pages/maxmillion.jpg" width="300" , height="300">
         </div>
 
-        <div id="cat-person-container">
-            <img src="/Users/ziling/Desktop/CS_5610/project1/pages/mm:una.jpg"
-            width="250", height="250">
-            <div class="cat-person-text">
-                <p>I have two gorgeous cats. Older brother named Maxmillion, younger sister named Una</p>
-                <p>They both love vension taste cat food and sleeping</p>
-            </div>
+    </section>
+    <div id="volunteer-container">
+        <img src="/pages/volunteer.JPG" width="250" , height="250">
+        <div class="volunteer-text">
+            <p>I have volunteered as a elementary school teacher in Colombo, Sri Lanka</p>
+            <p>An unforgettable experience that taught me the importance of education I'll remeber for years to come</p>
         </div>
+    </div>
+
+    <div id="fun-facts-container">
+        <div class="fun-facts-text">
+            <p>I Love ski, <strong>BUT</strong> not really good at it</p>
+            <p>I Love travelling, <strong>BUT</strong> it's becoming a dreaming staff due to COVID</p>
+            <p>I Love boba milk tea, <strong>BUT</strong> it's a fat generator</p>
+        </div>
+    </div>
+
+    <div id="cat-person-container">
+        <img src="/pages/mm:una.jpg" width="250" , height="250">
+        <div class="cat-person-text">
+            <p>I have two gorgeous cats. Older brother named Maxmillion, younger sister named Una</p>
+            <p>They both love vension taste cat food and sleeping</p>
+        </div>
+    </div>
 </body>
+
 </html>
