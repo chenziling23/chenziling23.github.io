@@ -1,11 +1,18 @@
-/* @media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     body {
+        width: 50%;
         font-size: 5px;
     }
     p{
         color: black;
     }
-} */
+    .imgbox{
+        height: 80%;
+    }
+    .main-container{
+        height: 50%;
+    } 
+}
 .imgbox {
     display: grid;
 }
