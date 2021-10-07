@@ -6,9 +6,6 @@
     p{
         color: black;
     }
-    .imgbox .main-container{
-        height: 50%;
-    } 
 }
 .imgbox {
     display: grid;
